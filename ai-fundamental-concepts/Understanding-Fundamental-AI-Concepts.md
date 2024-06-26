@@ -1,3 +1,5 @@
+In this Artificial Intelligence (AI) Fundamentals learning series, we will explore some of the fundamental concepts underlying AI, providing insights into how these concepts work and their significance in the broader field of artificial intelligence.
+
 ### Overview
 AI is a field of computer science that aims to create machines or systems capable of performing tasks that typically require human intelligence. Over the years, AI has evolved significantly, giving rise to various concepts, theories, and technologies that continue to reshape our world.
 
