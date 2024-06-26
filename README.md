@@ -5,3 +5,7 @@ If you're planning to take the AI-900 exam, consider exploring my series of arti
 
 ## What is AI and its fundamental concepts?
   + [Understanding Fundamental AI Concepts](https://github.com/navindevan/azure-ai-fundamentals-exam-preparation/blob/main/ai-fundamental-concepts/Understanding-Fundamental-AI-Concepts.md)
+
+## Describe Artificial Intelligence workloads and considerations (15-20%)
+  + [Guiding Principles in Artificial Intelligence](https://github.com/navindevan/azure-ai-fundamentals-exam-preparation/blob/main/ai-workloads-consideration/ai-guiding-principles.md)
+  + [Common Workloads in Artificial Intelligence](https://github.com/navindevan/azure-ai-fundamentals-exam-preparation/blob/main/ai-workloads-consideration/ai-common-workloads.md)
