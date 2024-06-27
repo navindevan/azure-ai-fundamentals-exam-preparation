@@ -1,28 +1,40 @@
-We have explored [Understanding Fundamental AI Concepts](https://github.com/navindevan/azure-ai-fundamentals-exam-preparation/blob/main/ai-fundamental-concepts/Understanding-Fundamental-AI-Concepts.md) and [Guiding Principles in Artificial Intelligence](https://github.com/navindevan/azure-ai-fundamentals-exam-preparation/blob/main/ai-workloads-consideration/ai-guiding-principles.md). If you have not read my previous articles on Artificial Intelligence, kindly check-it out. Now, in this article we are going to explore common workloads of Artificial Intelligence.
+In my previous article we explored [Understanding Machine Learning and Machine Learning Model](https://github.com/navindevan/azure-ai-fundamentals-exam-preparation/blob/main/ai-fundamental-principles-machine-learning/understanding-ml-ml-models.md). In this article we are going to explore the Common Types of  Machine Learning.
 
-### Introduction
-Artificial Intelligence (AI) has become an indispensable tool across various industries, revolutionizing how businesses operate and adding unprecedented value to society. One of the key reasons for its widespread adoption is its ability to handle diverse workloads efficiently. In this article, we delve into the common workloads of AI, elucidating each with examples to provide a comprehensive understanding of their applications and impact.
+### Overview
+The common types of machine learning are fundamental for both beginners and seasoned professionals alike. We explore the core concepts of regression, classification, clustering, deep learning, and essential elements of machine learning, such as features, labels, and confusion matrices.
 
-### Prediction and Demand Forecasting
-Prediction and demand forecasting are vital tasks for businesses aiming to optimize operations, inventory management, and resource allocation. AI techniques such as machine learning models enable accurate predictions based on historical data and current market trends.
+![machine-learning-types.png](https://github.com/navindevan/azure-ai-fundamentals-exam-preparation/tree/main/resources/img)
 
-### Anomaly Detection
-Anomaly detection involves identifying unusual patterns or deviations from normal behavior within datasets. It is crucial for fraud detection, cybersecurity, and monitoring complex systems for potential issues.
+### Regression. Predicting Continuous Values
+Regression analysis is a type of supervised learning used to predict continuous outcomes. In essence, it analyzes the relationship between one dependent variable and one or more independent variables. The goal is to understand how the dependent variable changes when the independent variables are varied.
 
-### Computer Vision
-Computer vision enables machines to interpret and analyze visual information, replicating the human ability to perceive and understand the environment. It finds applications in autonomous vehicles, surveillance systems, healthcare, and augmented reality.
+**Example**
+Consider a real estate scenario where we want to predict house prices based on features like area, number of bedrooms, and location. By collecting data on past house sales, we can train a regression model to predict the price of a new house based on its features.
 
-### Natural Language Processing (NLP)
-NLP focuses on enabling machines to understand, interpret, and generate human language. It powers applications such as language translation, sentiment analysis, chatbots, and virtual assistants.
+### Classification. Categorizing Data
+Classification is another form of supervised learning where the goal is to categorize data points into predefined classes or categories. It's widely used in various applications such as spam detection, sentiment analysis, and medical diagnosis.
 
-### Knowledge Mining
-Knowledge mining involves extracting valuable insights and knowledge from unstructured data sources such as documents, emails, and social media posts. It enables organizations to uncover hidden patterns, trends, and relationships within vast amounts of textual data.
+**The two common classification scenarios are:**
+  +  Binary Classification
+  +  Multiclass Classification
 
-### Content Moderation
-Content moderation aims to filter and regulate user-generated content on digital platforms to ensure compliance with community guidelines and legal regulations. AI algorithms play a crucial role in identifying and flagging inappropriate or harmful content, including hate speech, spam, and graphic imagery.
+### Binary Classification
+In binary classification, the label determines whether the observed item belongs to a particular class or not. Alternatively stated, returns true or false.
 
-### Generative AI
-Generative AI involves creating new content, such as images, music, or text, that is indistinguishable from content produced by humans. It encompasses techniques like generative adversarial networks (GANs) and recurrent neural networks (RNNs), enabling the generation of realistic and creative outputs.
+**Example**
+Imagine a scenario where we want to classify emails as either spam or not spam. We can use features like the presence of specific keywords, sender information, and email format to train a classification   model. Once trained, the model can accurately classify new emails as spam or not spam.
+
+### Multiclass Classification
+Multiclass classification broadens the scope of binary classification by forecasting a label that signifies one among several potential classes.
+
+**Example**
+Determining the breed of a dog (Labrador Retriever, German Shepherd, or Golden Retriever) based on its size and fur characteristics.
+
+### Clustering. Uncovering Hidden Patterns
+Unlike regression and classification, clustering is an unsupervised learning technique where the goal is to group similar data points together based on their intrinsic characteristics. It's particularly useful for exploratory data analysis and identifying hidden patterns within datasets.
+
+**Example**
+Consider a customer segmentation task for a retail business. By clustering customers based on their purchasing behavior, demographics, and shopping preferences, the business can tailor marketing strategies to different customer segments, thereby maximizing sales and customer satisfaction.
 
 ### Conclusion
-Artificial Intelligence encompasses a diverse range of workloads, each serving unique purposes and driving innovation across industries. From prediction and demand forecasting to generative AI, these workloads empower businesses and organizations to make informed decisions, automate tasks, and unlock new opportunities for growth and advancement. By understanding and harnessing the capabilities of AI workloads, we can leverage the full potential of artificial intelligence to address complex challenges and shape a brighter future.
+Understanding the core concepts and types of machine learning is essential for building robust and effective predictive models in real-world applications. As technology continues to advance, the possibilities for leveraging machine learning to solve complex problems are virtually limitless.
