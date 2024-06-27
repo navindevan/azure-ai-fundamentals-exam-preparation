@@ -9,3 +9,9 @@ If you're planning to take the AI-900 exam, consider exploring my series of arti
 ## Describe Artificial Intelligence workloads and considerations (15-20%)
   + [Guiding Principles in Artificial Intelligence](https://github.com/navindevan/azure-ai-fundamentals-exam-preparation/blob/main/ai-workloads-consideration/ai-guiding-principles.md)
   + [Common Workloads in Artificial Intelligence](https://github.com/navindevan/azure-ai-fundamentals-exam-preparation/blob/main/ai-workloads-consideration/ai-common-workloads.md)
+
+## Describe Fundamental principles of machine learning on Azure (20-25%)
+  +  [Understanding Machine Learning and Machine Learning Model](https://github.com/navindevan/azure-ai-fundamentals-exam-preparation/blob/main/ai-fundamental-principles-machine-learning/understanding-ml-ml-models.md)
+  +  [Common Types of Machine Learning](https://github.com/navindevan/azure-ai-fundamentals-exam-preparation/blob/main/ai-fundamental-principles-machine-learning/common-types-ml-learning.md)
+  +  [Deep Learning, Core ML Concepts and the Confusion Matrix](https://github.com/navindevan/azure-ai-fundamentals-exam-preparation/blob/main/ai-fundamental-principles-machine-learning/deep-learning-ml-concept-confusion-matrix.md)
+  +  [Train and Validate Datasets in Machine Learning](https://github.com/navindevan/azure-ai-fundamentals-exam-preparation/blob/main/ai-fundamental-principles-machine-learning/train-validate-datasets-ml.md)
