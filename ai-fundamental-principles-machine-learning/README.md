@@ -1,5 +1,7 @@
-## Artificial Intelligence workloads and considerations (15-20%)
-In the article [Understanding Fundamental AI Concepts](https://github.com/navindevan/azure-ai-fundamentals-exam-preparation/blob/main/ai-fundamental-concepts/Understanding-Fundamental-AI-Concepts.md), we delved into the core principles of Artificial Intelligence. In below two articles, we delve into the key guiding principles and common workloads of Artificial Intelligence.
+## Fundamental principles of machine learning on Azure (20-25%)
+In the fundamental principle of ML series, we delved into the understanding ML and ML models, common types of ML learning, Deep Learning, Core ML Concepts and the Confusion Matrix, Train and Validate Datasets in Machine Learning
 
-  + [Guiding Principles in Artificial Intelligence](https://github.com/navindevan/azure-ai-fundamentals-exam-preparation/blob/main/ai-workloads-consideration/ai-guiding-principles.md)
-  + [Common Workloads in Artificial Intelligence](https://github.com/navindevan/azure-ai-fundamentals-exam-preparation/blob/main/ai-workloads-consideration/ai-common-workloads.md)
+  +  [Understanding Machine Learning and Machine Learning Model](https://github.com/navindevan/azure-ai-fundamentals-exam-preparation/blob/main/ai-fundamental-principles-machine-learning/understanding-ml-ml-models.md)
+  +  [Common Types of Machine Learning](https://github.com/navindevan/azure-ai-fundamentals-exam-preparation/blob/main/ai-fundamental-principles-machine-learning/common-types-ml-learning.md)
+  +  [Deep Learning, Core ML Concepts and the Confusion Matrix](https://github.com/navindevan/azure-ai-fundamentals-exam-preparation/blob/main/ai-fundamental-principles-machine-learning/deep-learning-ml-concept-confusion-matrix.md)
+  +  [Train and Validate Datasets in Machine Learning](https://github.com/navindevan/azure-ai-fundamentals-exam-preparation/blob/main/ai-fundamental-principles-machine-learning/train-validate-datasets-ml.md)
