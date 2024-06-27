@@ -1,28 +1,29 @@
-We have explored [Understanding Fundamental AI Concepts](https://github.com/navindevan/azure-ai-fundamentals-exam-preparation/blob/main/ai-fundamental-concepts/Understanding-Fundamental-AI-Concepts.md) and [Guiding Principles in Artificial Intelligence](https://github.com/navindevan/azure-ai-fundamentals-exam-preparation/blob/main/ai-workloads-consideration/ai-guiding-principles.md). If you have not read my previous articles on Artificial Intelligence, kindly check-it out. Now, in this article we are going to explore common workloads of Artificial Intelligence.
-
 ### Introduction
-Artificial Intelligence (AI) has become an indispensable tool across various industries, revolutionizing how businesses operate and adding unprecedented value to society. One of the key reasons for its widespread adoption is its ability to handle diverse workloads efficiently. In this article, we delve into the common workloads of AI, elucidating each with examples to provide a comprehensive understanding of their applications and impact.
+In machine learning, where algorithms are trained to learn patterns from data and make predictions or decisions, the role of datasets cannot be overstated. Among the various types of datasets used in machine learning, the train and validate datasets hold paramount importance. These datasets serve as the foundation upon which models are built, evaluated, and improved. In this article, we explore the significance of train and validate datasets.
 
-### Prediction and Demand Forecasting
-Prediction and demand forecasting are vital tasks for businesses aiming to optimize operations, inventory management, and resource allocation. AI techniques such as machine learning models enable accurate predictions based on historical data and current market trends.
+### Training the Model
+  +  Having a larger historical dataset tends to yield more precise results.
+  +  Avoid utilizing the entirety of your data for model training.
+  +  Segment your labeled data into training and validation or testing sets.
+  +  For instance, if you have 10,000 rows of data, consider splitting it into 5,000 for training and another 5,000 for testing the model.
+  +  Randomly divide the training and validation datasets.
 
-### Anomaly Detection
-Anomaly detection involves identifying unusual patterns or deviations from normal behavior within datasets. It is crucial for fraud detection, cybersecurity, and monitoring complex systems for potential issues.
+### Evaluate / Validate the Results
 
-### Computer Vision
-Computer vision enables machines to interpret and analyze visual information, replicating the human ability to perceive and understand the environment. It finds applications in autonomous vehicles, surveillance systems, healthcare, and augmented reality.
+### Regression
+  +  Utilize the validation dataset to test the model and measure thoe close or far the actual results are from the predicted results.
+  +  Evaluate this closeness or disparity using metrics such as Mean Square Error (MSE).
+  +  Remember that large differences are much worse than small differences.
+    
+### Classification
+  +  The objective is to produce a prediction score suggesting the likelihood of an event occurring.
+  +  For instance, the prediction might indicate an 80% chance of rain and a 20% chance of sunshine.
+  +  Consequently, if, on occasion, it erroneously predicts rain on a sunny day, it's acceptable as long as it falls within the 20% confidence range.
 
-### Natural Language Processing (NLP)
-NLP focuses on enabling machines to understand, interpret, and generate human language. It powers applications such as language translation, sentiment analysis, chatbots, and virtual assistants.
-
-### Knowledge Mining
-Knowledge mining involves extracting valuable insights and knowledge from unstructured data sources such as documents, emails, and social media posts. It enables organizations to uncover hidden patterns, trends, and relationships within vast amounts of textual data.
-
-### Content Moderation
-Content moderation aims to filter and regulate user-generated content on digital platforms to ensure compliance with community guidelines and legal regulations. AI algorithms play a crucial role in identifying and flagging inappropriate or harmful content, including hate speech, spam, and graphic imagery.
-
-### Generative AI
-Generative AI involves creating new content, such as images, music, or text, that is indistinguishable from content produced by humans. It encompasses techniques like generative adversarial networks (GANs) and recurrent neural networks (RNNs), enabling the generation of realistic and creative outputs.
+### False Positive vs False Negative
+  +  Compare true positive with false positive and true negative with false negative when evaluating the model. 
+  +  Reflect on the significance of minimizing false positives.
+  +  This leads to the comparison of accuracy and precision
 
 ### Conclusion
-Artificial Intelligence encompasses a diverse range of workloads, each serving unique purposes and driving innovation across industries. From prediction and demand forecasting to generative AI, these workloads empower businesses and organizations to make informed decisions, automate tasks, and unlock new opportunities for growth and advancement. By understanding and harnessing the capabilities of AI workloads, we can leverage the full potential of artificial intelligence to address complex challenges and shape a brighter future.
+Train and validate datasets are indispensable components of the machine learning workflow, playing a critical role in model training, evaluation, and refinement. By understanding the significance of these datasets and following best practices for their utilization, machine learning practitioners can develop robust models that generalize well to unseen data and make accurate predictions in real-world scenarios.
