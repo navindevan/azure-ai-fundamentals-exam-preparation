@@ -21,3 +21,7 @@ If you're planning to take the AI-900 exam, consider exploring my series of arti
   +  [Tools and Services for Computer and Custom Vision on Azure](https://github.com/navindevan/azure-ai-fundamentals-exam-preparation/blob/main/ai-features-computer-vision/tools-services-computer-custom-vision.md)
   +  [Fundamentals of Facial Services on Azure](https://github.com/navindevan/azure-ai-fundamentals-exam-preparation/blob/main/ai-features-computer-vision/fundamentals-facial-services.md))
 
+## Describe features of Natural Language Processing (NLP) workloads on Azure (15-20%)
+  +  [Understanding the Essence of Natural Language Processing](https://github.com/navindevan/azure-ai-fundamentals-exam-preparation/blob/main/ai-features-nlp-workloads/essence-of-nlp.md)
+  +  [Transforming Text Analytics with NLP Workload Services](https://github.com/navindevan/azure-ai-fundamentals-exam-preparation/blob/main/ai-features-nlp-workloads/transforming-text-analtics-nlp.md)
+  +  [Core Concepts of Natural Language Processing](https://github.com/navindevan/azure-ai-fundamentals-exam-preparation/blob/main/ai-features-nlp-workloads/nlp-core-concepts.md)
