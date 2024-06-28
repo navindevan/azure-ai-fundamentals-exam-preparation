@@ -1,29 +1,37 @@
-In my earlier article [Feature of Computer Vision Workloads on Azure](https://github.com/navindevan/azure-ai-fundamentals-exam-preparation/blob/main/ai-features-computer-vision/feature-computer-vision-workloads.md) we explored the common workloads of Computer vision. Continuing this discussion on workloads, in this article will we are going to explore Tools and Services for Computer and Custom Vision.  
-
 ### Overview
-In today's data-driven world, the ability to extract meaningful insights from visual data has become increasingly crucial across various industries. From automating tedious tasks to enabling innovative solutions, computer vision technology has emerged as a game-changer. Microsoft Azure, one of the leading cloud computing platforms, offers a comprehensive suite of tools and services for computer vision applications. In this article, we will explore the various computer and custom vision tools and services available on Azure.
+In this article We will explore core concepts such as utterances, entities, and intents, providing examples to illustrate their application.
 
-### Azure Computer Vision
-Azure Computer Vision is a cloud-based service that enables developers to extract valuable information from images and videos using advanced algorithms. It offers a wide range of functionalities, including image recognition, optical character recognition (OCR), object detection, and image analysis.
+### Core Concepts of NLP
 
-### Computer Vision Tools
-Microsoft Azure offers the choice between the computer vision service and the broader cognitive service suite, which encompasses various functionalities. These services operate under a unified umbrella, each requiring a unique KEY and END POINT for access and utilization.
+### Utterances
+Utterances are the fundamental units of communication in NLP. They are the phrases or sentences that users input into an NLP system. Utterances can vary widely in complexity and formality, depending on the context in which they are used.
 
-### Computer Vision Service
-  +  Utilizes pretrained machine learning models
-  +  Recognizes over 10K objects
-  +  Generates automatic image captions and tags
-  +  Conducts content moderation for adult, racy, or gory content
-  +  Detects faces and performs text recognition
+**Examples**
+  +  **Simple Utterance:** "What's the weather today?"
+  +  **Complex Utterance:** "Can you please book me a table for two at the Italian restaurant downtown for tomorrow evening?"
+  +  **Informal Utterance:** "Hey, any good pizza places around here?"
 
-### Azure Custom Vision
-Azure Custom Vision empowers developers to build custom image classification and object detection models without requiring extensive machine learning expertise. It provides an intuitive interface for training and deploying custom vision models tailored to specific use cases.
+### Entities
+Entities are the specific pieces of information that are extracted from utterances. They provide context and detail that are essential for the NLP system to understand the user's request fully.
 
-### Custom Vision Service
-  +  The Custom Vision Service offers the capability to build and trian models for either classification or object detection tasks. 
-  +  You can upload your own dataset containing images and corresponding classes for training. 
-  +  Once trained, you can publish the model for personal or collaborative use. 
-  +  It's worth noting that the service segregates the training and prediction processes into two distinct resources.
+### Types of Entities
+  +  **Predefined Entities:** Commonly recognized entities such as dates, times, numbers, currencies, and locations.
+  +  **Custom Entities:** Specific to the application domain, such as product names, employee IDs, or technical terms.
+
+**Examples**
+
+In the utterance "What's the weather today in New York?" the entity is "New York" (location).
+In "Book me a flight for next Friday," the entity is "next Friday" (date).
+In "Transfer $200 to my savings account," the entities are "$200" (amount) and "savings account" (account type).
+
+### Intents
+Intents represent the underlying goal or purpose of an utterance. Identifying the intent allows the NLP system to determine what action to take in response to the user's input.
+
+**Examples**
+
+  +  **Weather Inquiry:** "What's the weather today?" (Intent: GetWeather).
+  +  **Flight Booking:** "Book me a flight for next Friday." (Intent: BookFlight).
+  +  **Money Transfer:** "Transfer $200 to my savings account." (Intent: TransferMoney).
 
 ### Conclusion
-Discovering Azure's tools for computer and custom vision. They make it easy to create smart solutions using images and videos, helping businesses innovate faster. In next article we will explore the fundamental of Facial Services part of computer vision. 
+Understanding the core concepts of NLP—utterances, entities, and intents—is essential for developing effective language models that can accurately interpret and respond to user inputs.
