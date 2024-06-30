@@ -1,5 +1,5 @@
-## Artificial Intelligence workloads and considerations
-In the article [Understanding Fundamental AI Concepts](https://github.com/navindevan/azure-ai-fundamentals-exam-preparation/blob/main/ai-fundamental-concepts/Understanding-Fundamental-AI-Concepts.md), we delved into the core principles of Artificial Intelligence. In below two articles, we delve into the key guiding principles and common workloads of Artificial Intelligence.
+## F of Generative AI workloads on Azure
+In this article, we explore the fundamentals of GenAI, explore various scenarios where it is applied, and highlight the profound implications and potential challenges of this technology. The emergence of "Responsible Generative AI," a framework designed to ensure that generative AI technologies are used ethically, safely, and beneficially.
 
-  + [Guiding Principles in Artificial Intelligence](https://github.com/navindevan/azure-ai-fundamentals-exam-preparation/blob/main/ai-workloads-consideration/ai-guiding-principles.md)
-  + [Common Workloads in Artificial Intelligence](https://github.com/navindevan/azure-ai-fundamentals-exam-preparation/blob/main/ai-workloads-consideration/ai-common-workloads.md)
+  + [Learn Fundamentals of Generative AI](https://github.com/navindevan/azure-ai-fundamentals-exam-preparation/blob/main/ai-generative-ai-workloads/fundamentals-generative-ai.md)
+  + [Responsible Generative AI: Ensuring Ethical and Safe Use](https://github.com/navindevan/azure-ai-fundamentals-exam-preparation/blob/main/ai-generative-ai-workloads/responsible-generative-ai.md)
