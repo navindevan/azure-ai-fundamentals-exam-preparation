@@ -25,3 +25,13 @@ If you're planning to take the AI-900 exam, consider exploring my series of arti
   +  [Understanding the Essence of Natural Language Processing](https://github.com/navindevan/azure-ai-fundamentals-exam-preparation/blob/main/ai-features-nlp-workloads/essence-of-nlp.md)
   +  [Transforming Text Analytics with NLP Workload Services](https://github.com/navindevan/azure-ai-fundamentals-exam-preparation/blob/main/ai-features-nlp-workloads/transforming-text-analtics-nlp.md)
   +  [Core Concepts of Natural Language Processing](https://github.com/navindevan/azure-ai-fundamentals-exam-preparation/blob/main/ai-features-nlp-workloads/nlp-core-concepts.md)
+
+## Describe features of generative AI workloads on Azure (15-20%)
+  + [Learn Fundamentals of Generative AI](https://github.com/navindevan/azure-ai-fundamentals-exam-preparation/blob/main/ai-generative-ai-workloads/fundamentals-generative-ai.md)
+  + [Responsible Generative AI: Ensuring Ethical and Safe Use](https://github.com/navindevan/azure-ai-fundamentals-exam-preparation/blob/main/ai-generative-ai-workloads/responsible-generative-ai.md)
+
+## Other Resources
+  +  [AI-900 Exam: Study guide](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-900)
+  +  [AI-900 Self-directed learning](https://learn.microsoft.com/en-us/training/courses/ai-900t00)
+  +  [AI-900 Practice exam](https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/?practice-assessment-type=certification#certification-practice-for-the-exam)
+
